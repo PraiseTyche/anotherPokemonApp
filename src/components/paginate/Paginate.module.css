@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.link,
+.btn {
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  margin: 1rem 0.5rem;
+}
+
+.active {
+  background: #f0dba5;
+  color: black;
+}
+.btn {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}

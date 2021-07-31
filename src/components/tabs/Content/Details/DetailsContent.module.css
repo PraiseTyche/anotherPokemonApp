@@ -1,0 +1,15 @@
+.contentContainer {
+  padding: 1.5rem 1rem;
+}
+
+.detailsContainer {
+  display: flex;
+  align-items: flex-end;
+  margin: 1rem 0;
+}
+.detailsContainer h3 {
+  text-decoration: underline;
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  color: rgba(255, 255, 255, 0.87);
+}

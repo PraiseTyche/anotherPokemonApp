@@ -1,0 +1,30 @@
+.tabsHeader {
+  width: 100%;
+  height: 5vh;
+}
+
+.tabsNavigation {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+}
+
+.tabsNavigationLink {
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: #c4c4c4;
+  padding: 0.5rem;
+  color: #121212;
+  margin: 0 1rem;
+}
+
+.activeTab {
+  background: #f0dba5;
+}
+
+@media only screen and (max-width: 900px) {
+  .tabsHeader {
+    margin: 1rem 0;
+  }
+}

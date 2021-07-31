@@ -1,0 +1,17 @@
+.contentContainer {
+  height: 50vh;
+}
+
+.inactiveContent {
+  display: none;
+}
+
+.activeContent {
+  display: block;
+}
+
+@media only screen and (max-width: 900px) {
+  .contentContainer {
+    height: 100%;
+  }
+}

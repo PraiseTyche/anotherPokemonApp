@@ -1,0 +1,52 @@
+.ddWrapper {
+  background: #c4c4c4;
+  color: black;
+  width: 100%;
+  cursor: pointer;
+}
+
+.closeModal {
+  height: 100vh;
+  width: 100vw;
+  background: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.ddHeader_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 5vh;
+}
+
+.ddListItem {
+  cursor: pointer;
+  padding: 2rem 0;
+  display: block;
+  height: 10vh;
+  transition: all 0.6s ease-in;
+  padding-left: 1rem;
+}
+
+.ddListItem:hover {
+  background: #f0dba5;
+}
+
+.ddList {
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  z-index: 1000;
+  background: #c4c4c4;
+  width: 100%;
+}
+
+.link {
+  width: 100%;
+  display: inline-block;
+  height: 10vh;
+}

@@ -1,0 +1,73 @@
+.contentContainer {
+  padding: 1.5rem 1rem;
+}
+.pokemonNameHeader {
+  font-size: 2.5rem;
+  color: #f0dba5;
+}
+
+.pokemonDescription {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin: 1rem 0;
+}
+
+/* .iconContentContainer {
+  display: flex;
+} */
+
+.iconHeader {
+  font-size: 1.5rem;
+}
+
+.iconContainer {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconContainer img {
+  width: 20px;
+  margin-right: 0.3rem;
+}
+
+.spritesContentContainer {
+  margin-top: 1rem;
+}
+
+.formatSpriteContainer {
+  display: flex;
+  padding: 1rem 0;
+}
+.spritesContentContainer h3 {
+  font-size: 1.5rem;
+}
+
+.spritesContainer {
+  height: 60px;
+  width: 60px;
+  margin: 0 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.spritesContainer img {
+  width: 50px;
+}
+.pokemonTypeContainer {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  .contentContainer {
+    margin: 1rem 0;
+  }
+}

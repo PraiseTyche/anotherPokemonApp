@@ -1,0 +1,15 @@
+.tabContainer {
+  width: 100%;
+  min-height: 50vh;
+  margin: 1rem 0;
+}
+
+.active {
+  background: #f0dba5;
+}
+
+@media only screen and (max-width: 900px) {
+  .tabContainer {
+    min-height: 60vh;
+  }
+}

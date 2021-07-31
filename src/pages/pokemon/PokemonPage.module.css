@@ -1,0 +1,100 @@
+.container {
+  width: 90%;
+  min-height: 80vh;
+  margin: 2rem auto;
+  display: flex;
+  /* position: relative; */
+  background: rgba(33, 33, 33, 1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.image_section {
+  min-height: 40vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.image_box {
+  height: 350px;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.details_section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header_id h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.image_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+.pokemon_image {
+  width: 75%;
+}
+
+.japanese_Heading {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.japanese_Heading > h3 {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.2);
+  padding: 1rem 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image_section,
+  .details_section {
+    flex: 1;
+  }
+
+  .image_box {
+    height: 175px;
+    width: 175px;
+  }
+
+  .header_id h2 {
+    font-size: 1.5rem;
+  }
+  .japanese_Heading > h3 {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.2);
+    padding: 1rem 0;
+  }
+}
